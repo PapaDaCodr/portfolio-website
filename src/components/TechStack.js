@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaJava } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaJava, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaGit, FaGithub, FaJs } from 'react-icons/fa';
+import { SiTypescript, SiNextdotjs, SiExpress, SiMongodb, SiPycharm, SiIntellijidea, SiPostgresql, SiVisualstudiocode, SiVite, SiFirebase } from 'react-icons/si';
 
 const TechIcon = ({ Icon, name }) => (
   <motion.div
@@ -17,11 +18,25 @@ const TechStack = () => {
   const technologies = [
     { Icon: FaReact, name: 'React' },
     { Icon: FaNodeJs, name: 'Node.js' },
-    {Icon: FaJava, name: 'Java' },
+    { Icon: FaJava, name: 'Java' },
     { Icon: FaPython, name: 'Python' },
     { Icon: FaDatabase, name: 'SQL' },
-    
-  ];
+    { Icon: FaJs, name: 'JavaScript' },
+    { Icon: SiTypescript, name: 'TypeScript' },
+    { Icon: SiNextdotjs, name: 'Next.js' },
+    { Icon: FaHtml5, name: 'HTML5' },
+    { Icon: FaCss3Alt, name: 'CSS3' },
+    { Icon: SiExpress, name: 'Express' },
+    { Icon: SiMongodb, name: 'MongoDB' },
+    { Icon: SiPycharm, name: 'PyCharm' },
+    { Icon: SiIntellijidea, name: 'IntelliJ IDEA' },
+    { Icon: FaGit, name: 'Git' },
+    { Icon: FaGithub, name: 'GitHub' },
+    { Icon: SiPostgresql, name: 'PostgreSQL' },
+    { Icon: SiVisualstudiocode, name: 'VS Code' },
+    { Icon: SiVite, name: 'Vite' },
+    { Icon: SiFirebase, name: 'Firebase' }
+];
 
   return (
     <section className="py-16 bg-[var(--background)]">

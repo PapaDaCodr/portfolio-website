@@ -69,6 +69,11 @@ const Projects = () => {
       github: "https://github.com/PapaDaCodr/Simple-java-implementation-of-DSA-principles",
     },
     {
+      title: "npm-progress-tracker",
+      description:"A simple npm package that tracks the progress of an npm download",
+      github: "https://github.com/PapaDaCodr/npm-progress-tracker",
+    },
+    {
       title: "Email Scraper",
       description: "Scrapes emails according parameters given",
       github: "https://github.com/PapaDaCodr/Email-scraper",

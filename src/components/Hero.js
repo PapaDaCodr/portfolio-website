@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ type: 'spring', stiffness: 120 }}
           className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto"
         >
-          I'm a passionate software engineer crafting beautiful and functional solutions.
+          I'm a passionate software developer with a keen interest in crafting beautiful and functional solutions.
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
